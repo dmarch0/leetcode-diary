@@ -117,3 +117,7 @@ Tags: sliding window
 Link: https://leetcode.com/problems/minimum-window-substring/description/  
 Idea: here I tried couting all letters in given substring. Then we create two pointers and start moving right pointer until we have enough letters to match substring. Then we move forward and if we meet an extra letter - we can move left, removing letters until we hit one we can't remove - than we move right again.
 
+# Permutations
+Tags: recursion  
+Link: https://leetcode.com/problems/permutations/description/  
+Idea: I went to this problem with something like in [Generate parenthesis](#generate-parenthesis), the idea is to take each number and elements that are left, permutation will be [thiNumber, ...elementsThatAreLeft], and we keep doing this until elements that are left are just 1
